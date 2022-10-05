@@ -1,6 +1,6 @@
 import React from "react";
 import rotatingGif from "../assets/rotating2.gif";
-import { Button, Form } from "react-bootstrap";
+import Search from "./Search";
 
 function Home() {
   return (
@@ -9,17 +9,7 @@ function Home() {
         <img src={rotatingGif} alt="world" />
       </div>
       <div className="content">
-        <div className="search">
-          <Form className="d-flex">
-            <Form.Control
-              type="search"
-              placeholder="Search"
-              className="me-2"
-              aria-label="Search"
-            />
-            <Button variant="outline-success">Search</Button>
-          </Form>
-        </div>
+        <Search />
         <div className="display-content">
 
         </div>

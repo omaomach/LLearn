@@ -1,6 +1,7 @@
 import React from "react";
-import Home from "./components/Home";
 import NavBar from "./components/NavBar";
+// import Home from "./components/Home";
+import Events from "./components/Events";
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 function App() {
@@ -8,7 +9,8 @@ function App() {
     return (
         <>
         <NavBar />
-        <Home />
+        <Events />
+        {/* <Home /> */}
         </>
     )
 
