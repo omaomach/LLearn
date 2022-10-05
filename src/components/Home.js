@@ -4,8 +4,10 @@ import rotatingGif from "../assets/rotating2.gif"
 function Home() {
 
     return (
-        <div>
-            <img src={rotatingGif} alt="world"/>
+        <div className="main">
+            <div className="img">
+                <img src={rotatingGif} alt="world"/>
+            </div>
         </div>
     )
 
