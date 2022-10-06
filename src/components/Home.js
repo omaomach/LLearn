@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from "react";
 import rotatingGif from "../assets/rotating2.gif";
+import Events from "./Events";
 import Search from "./Search";
 
 function Home() {
@@ -10,9 +11,11 @@ function Home() {
       .then((res) => res.json())
       .then((data) => {
         setEvents(data);
-        console.log(data);
+        // console.log(data);
       });
   }, []);
+
+  console.log(events)
 
   return (
     <div className="main-div">
@@ -24,7 +27,7 @@ function Home() {
         <div className="display-event-content">
           {events.map((event) => (
             // console.log(event.image)
-            <div className="event-card">
+            <div key={event.id} className="event-card">
             
               <div className="home-event-image">
                 <img src={event.image} alt="event image" />
@@ -47,6 +50,9 @@ function Home() {
           ))}
         </div>
       </div>
+
+      <Events events={events}/>
+
     </div>
   );
 }
