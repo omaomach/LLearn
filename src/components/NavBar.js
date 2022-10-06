@@ -8,7 +8,7 @@ function NavBar() {
     <div className="navigation">
       <Navbar className="navigation-bar" collapseOnSelect expand="lg" variant="dark">
         <Container className="navigation-conatiner">
-          <Navbar.Brand href="#home">LLearn</Navbar.Brand>
+          <Navbar.Brand href="#home"><h3>LLearn</h3></Navbar.Brand>
           <Navbar.Toggle aria-controls="responsive-navbar-nav" />
           <Navbar.Collapse id="responsive-navbar-nav">
             <Nav className="m-auto">

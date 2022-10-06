@@ -21,7 +21,7 @@ function Suggest({onAddEvent}) {
 
   function handleSubmit(event) {
     event.preventDefault()
-    fetch("http://localhost:3000/events", {
+    fetch("https://murmuring-hollows-81209.herokuapp.com/events", {
       method: "POST",
       headers: {
         "content-Type":"application/json",

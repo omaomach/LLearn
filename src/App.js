@@ -10,7 +10,7 @@ function App() {
   const [events, setEvents] = useState([]);
 
   useEffect(() => {
-    fetch(`http://localhost:3000/events`)
+    fetch(`https://murmuring-hollows-81209.herokuapp.com/events`)
       .then((res) => res.json())
       .then((data) => {
         setEvents(data);
