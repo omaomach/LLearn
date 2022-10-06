@@ -1,9 +1,9 @@
 import React from "react";
 import Search from "./Search";
 
-function Events({ events }) {
+function Events(props) {
 
-  console.log(events)
+  console.log(props.events)
 
   return (
     <div className="main-div2">

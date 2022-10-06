@@ -50,9 +50,6 @@ function Home() {
           ))}
         </div>
       </div>
-
-      <Events events={events}/>
-
     </div>
   );
 }
