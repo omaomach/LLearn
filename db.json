@@ -1,0 +1,21 @@
+{
+    "events": [
+        {
+            "id": 1,
+            "name": "Microsoft ADC",
+            "date": "12-08-2022",
+            "venue": "Technical University of Kenya",
+            "count": 50,
+            "image": "",
+            "contact": "machokajoash@gmail.com",
+            "users": [
+                {
+                    "id": "1",
+                    "name": "Omao Machoka",
+                    "image": "",
+                    "phoneNumber": 254728748441
+                }
+            ]
+        }
+    ]
+}

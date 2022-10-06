@@ -1,6 +1,6 @@
 # LLearn
 
-### Created by Joash Omao Machoka on October 25th 2022
+### Created by Joash Omao Machoka on October 4th 2022
 
 ## Description
 
