@@ -9,7 +9,7 @@ Lets Learn(LLearn) is an online resgister that allows event organizers e.g lectu
 ## Screenshots
 The home page displays a list of all the events that the user has created for others to join or register for.
 
-<img src="../src/assets/home.png">
+<img src="./src/home.png">
 
 
 
