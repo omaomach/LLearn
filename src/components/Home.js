@@ -2,7 +2,9 @@ import React, { useState } from "react";
 import rotatingGif from "../assets/rotating2.gif";
 import Search from "./Search";
 
-function Home({ events }) {
+function Home({ events, onDeleteEvent }) {
+
+  const { id } = events
 
   const [search, setSearch] = useState("")
 
@@ -14,6 +16,13 @@ function Home({ events }) {
     let result = evt.name.toLowerCase().includes(search)
     return result
   })
+
+  function handleDelete() {
+    fetch(`http://localhost:3000/events/${id}`, {
+      method: "DELETE"
+    })
+    onDeleteEvent(id)
+  }
 
   return (
     <div className="main-div">
@@ -40,7 +49,7 @@ function Home({ events }) {
                 <div className="event-date">
                   {event.date}
                 </div>
-                <button className="delete-button">Delete</button>
+                <button className="delete-button" onClick={handleDelete}>Delete</button>
               </div>
               {/* <div className="event-attendees">
 

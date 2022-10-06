@@ -23,13 +23,18 @@ function App() {
     setEvents(updatedEvents)
   }
 
+  function deleteEvent(event) {
+    const updatedEvents = events.filter((evnt) => evnt.id !== event.id)
+    setEvents(updatedEvents)
+  }
+
   return (
     <Router>
       <NavBar />
       <Routes>
         <Route path="/events" element={<Events events={events} onAddEvent={addEvent}/>} />
         <Route path="/suggest" element={<Suggest onAddEvent={addEvent}/> } />
-        <Route exact path="/" element={<Home events={events}/>} />
+        <Route exact path="/" element={<Home events={events} onDeleteEvent={deleteEvent}/>} />
       </Routes>
     </Router>
   );
