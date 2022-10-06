@@ -4,7 +4,7 @@
 
 ## Description
 
-Lets Learn(LLearn) is an online resgister that allows event organizers e.g lecturers or anyone else will to take up the role to simply create or suggest an event. Sharing the link to the event will allow users to register for the event. Thsi allows the event organizer to keep track of who will be attending the event/meetup.
+Lets Learn(LLearn) is an online resgister that allows event organizers e.g lecturers or anyone else will to take up the role to simply create or suggest an event. Sharing the link to the event will allow users to register for the event. This allows the event organizer to keep track of who will be attending the event/meetup.
 
 ## Screenshots
 

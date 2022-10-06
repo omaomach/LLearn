@@ -11,7 +11,8 @@
             "users": [
                 {
                     "id": "1",
-                    "name": "Omao Machoka",
+                    "firstName": "Omao",
+                    "lastName": "Machoka",
                     "image": "",
                     "phoneNumber": 254728748441
                 }
