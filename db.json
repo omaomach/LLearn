@@ -6,14 +6,14 @@
             "date": "12-08-2022",
             "venue": "Technical University of Kenya",
             "count": 50,
-            "image": "",
+            "image": "https://cdn.mos.cms.futurecdn.net/MeU4HokrzUwhbd9PJBQCSV-970-80.png.webp",
             "contact": "machokajoash@gmail.com",
             "users": [
                 {
                     "id": "1",
                     "firstName": "Omao",
                     "lastName": "Machoka",
-                    "image": "",
+                    "image": "https://asset.vg247.com/sackboy_a_big_adventure_01.jpg/BROK/resize/1920x1920%3E/format/jpg/quality/80/sackboy_a_big_adventure_01.jpg",
                     "phoneNumber": 254728748441
                 }
             ]
