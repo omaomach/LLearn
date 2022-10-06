@@ -19,15 +19,16 @@ function App() {
   }, []);
 
   function addEvent(newEvent) {
-
+    const updatedEvents = [...events, newEvent]
+    setEvents(updatedEvents)
   }
 
   return (
     <Router>
       <NavBar />
       <Routes>
-        <Route path="/events" element={<Events events={events}/>} />
-        <Route path="/suggest" element={<Suggest />} />
+        <Route path="/events" element={<Events events={events} onAddEvent={addEvent}/>} />
+        <Route path="/suggest" element={<Suggest onAddEvent={addEvent}/> } />
         <Route exact path="/" element={<Home events={events}/>} />
       </Routes>
     </Router>
