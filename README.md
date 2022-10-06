@@ -37,8 +37,8 @@ The database for the website was run and supported by JSON server. Run json-serv
 ## Design Tools
 I designed the site using pencil and paper. The designs are as below:
 
-<img src="eventandhome.png">
-<img src="suggestdesign.png">
+<img src="./eventandhome.png">
+<img src="./suggestdesign.png">
 
 
 ## Known Bugs
