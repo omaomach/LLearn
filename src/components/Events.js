@@ -2,11 +2,13 @@ import React from "react";
 import Search from "./Search";
 
 function Events() {
+
   return (
     <div className="main-div2">
       <div className="left-content">
         <Search />
-        <div className="event-list"></div>
+        <div className="event-list">
+        </div>
       </div>
       <div className="right-content">
         <div className="event-image">
