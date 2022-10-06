@@ -31,6 +31,7 @@ function Home({ events }) {
                 <div className="event-date">
                   {event.date}
                 </div>
+                <button className="delete-button">Delete</button>
               </div>
               {/* <div className="event-attendees">
 

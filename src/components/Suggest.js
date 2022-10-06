@@ -6,6 +6,7 @@ function Suggest({onAddEvent}) {
   const [formData, setFormData] = useState({
     image: "",
     name: "",
+    venue: "",
     date: "",
     count: ""
   })
@@ -41,6 +42,7 @@ function Suggest({onAddEvent}) {
           <form className="form-event" onSubmit={handleSubmit}>
             <input type="text" id="image" placeholder="Event Image" onChange={handleChange} required></input> <br />
             <input type="text" id="name" placeholder="Event Name" onChange={handleChange} required></input> <br />
+            <input type="text" id="venue" placeholder="Event Venue" onChange={handleChange} required></input> <br />
             <input type="date" id="date"  placeholder="Event Date" onChange={handleChange} required></input>
             <br />
             <input type="number" placeholder="Event Count" onChange={handleChange} required></input> <br />

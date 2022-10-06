@@ -8,6 +8,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 
 function App() {
   const [events, setEvents] = useState([]);
+  const [search, setSearch] = useState("")
 
   useEffect(() => {
     fetch(`http://localhost:3000/events`)
@@ -23,13 +24,17 @@ function App() {
     setEvents(updatedEvents)
   }
 
+  function searchEvent(newSearch) {
+    setSearch(newSearch)
+  }
+
   return (
     <Router>
       <NavBar />
       <Routes>
         <Route path="/events" element={<Events events={events} onAddEvent={addEvent}/>} />
         <Route path="/suggest" element={<Suggest onAddEvent={addEvent}/> } />
-        <Route exact path="/" element={<Home events={events}/>} />
+        <Route exact path="/" element={<Home events={events} onSearchEvent={searchEvent}/>} />
       </Routes>
     </Router>
   );

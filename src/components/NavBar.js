@@ -14,7 +14,7 @@ function NavBar() {
             <Nav className="m-auto">
               <NavLink to="/">Home</NavLink>
               <NavLink to="/events">Events</NavLink>
-              <NavLink to="/suggest">Suggest</NavLink>
+              <NavLink to="/suggest">Suggest Event</NavLink>
             </Nav>
             <Nav>
               <NavLink to="/logout">Logout</NavLink>
