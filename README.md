@@ -4,12 +4,13 @@
 
 ## Description
 
-Lets Learn(LLearn) is an online resgister that allows event organizers e.g lecturers or anyone else will to take up the role to simply create or suggest an event. Sharing the link to the event will allow users to register for the event. This allows the event organizer to keep track of who will be attending the event/meetup.
+Lets Learn(LLearn) is an online resgister that allows event organizers e.g lecturers or anyone else who wishes to take up the role to simply create or suggest an event. Sharing the link to the event will allow users to register for the event. This allows the event organizer to keep track of who will be attending the event/meetup.
 
 ## Screenshots
 The home page displays a list of all the events that the user has created for others to join or register for.
 
 <img src="./src/home.png">
+<img src="./src/suggest.png">
 
 
 
@@ -34,11 +35,19 @@ The database for the website was run and supported by JSON server. Run json-serv
 * React JS
 
 ## Design Tools
+I designed the site using pencil and paper. The designs are as below:
+
+<img src="eventandhome.png">
+<img src="suggestdesign.png">
+
 
 ## Known Bugs
 The project has no known Bugs
 
 ## Support and Contact Details
+In the case that the project becomes captivating to the user in that he/she may want to share ideas on how to improve it, please contact me using my github email:
+
+* aaronjoash44@gmail.com
 
 ## License
 This project and app have no license or any copyright. They are free for use by anyone as long the usage is legal.  

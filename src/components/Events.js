@@ -1,13 +1,15 @@
 import React from "react";
 import Search from "./Search";
 
-function Events({events}) {
+function Events({ events }) {
 
   const listStyle = {
     cursor: "pointer",
     listStyle: "none",
     fontSize: "20px"
   }
+
+  
 
   return (
     <div className="main-div2">
@@ -45,7 +47,7 @@ function Events({events}) {
               type="number"
               placeholder="Phone Number"
               required
-            ></input>{" "}
+            ></input>
             <br />
             <input type="text" placeholder="Your Image" required></input> <br />
             <button type="submit">Register</button>
