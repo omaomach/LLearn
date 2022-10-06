@@ -1,19 +1,8 @@
-import React, { useEffect, useState } from "react";
+import React from "react";
 import rotatingGif from "../assets/rotating2.gif";
-import Events from "./Events";
 import Search from "./Search";
 
-function Home() {
-  const [events, setEvents] = useState([]);
-
-  useEffect(() => {
-    fetch(`http://localhost:3000/events`)
-      .then((res) => res.json())
-      .then((data) => {
-        setEvents(data);
-        // console.log(data);
-      });
-  }, []);
+function Home({ events }) {
 
   console.log(events)
 

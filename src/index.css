@@ -27,6 +27,12 @@
   background-color: #041929;
 }
 
+.navigation-bar a {
+  text-decoration: none;
+  color: #fff;
+  margin-left: 3rem;
+}
+
 .main-div {
   display: flex;
   flex-direction: row;
@@ -86,6 +92,10 @@
   margin-left: auto;
   margin-right: auto;
   border-radius: 12px;
+}
+
+ul {
+  margin-top: 2.5rem;
 }
 
 .right-content {

@@ -1,15 +1,24 @@
 import React from "react";
 import Search from "./Search";
 
-function Events(props) {
+function Events({events}) {
 
-  console.log(props.events)
+  const listStyle = {
+    cursor: "pointer",
+    listStyle: "none",
+    fontSize: "20px"
+  }
 
   return (
     <div className="main-div2">
       <div className="left-content">
         <Search />
         <div className="event-list">
+          <ul>
+            {events.map((event) => (
+              <li key={event.id} style={listStyle}>{event.name}</li>
+            ))}
+          </ul>
         </div>
       </div>
       <div className="right-content">
