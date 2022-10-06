@@ -199,4 +199,14 @@ button[type=submit] {
   border-radius: 12px;
 }
 
+.event-details {
+  width: 600px;
+  height: 50px;
+  margin-top: 0.5rem;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: aliceblue;
+  border-radius: 12px;
+}
+
 

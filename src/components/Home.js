@@ -9,13 +9,15 @@ function Home() {
   useEffect(() => {
     fetch("http://localhost:3000/events")
     .then((res) => res.json())
-    .then((data) => setEvents(data))
+    .then((data) => {
+      setEvents(data)
+    })
   }, [])
 
-  const attendees = events.map((event) => (
-    {event}
+  const event = events.map((evt) => (
+    {evt}
   ))
-  
+  console.log(event)
   
   return (
     <div className="main-div">
@@ -26,11 +28,10 @@ function Home() {
         <Search />
         <div className="display-content">
         <div className="event-image">
-          {attendees}
+          
         </div>
-        <div className="event-details-1">
+        <div className="event-details">
           <div className="event-name">
-
           </div>
           <div className="event-venue">
 
