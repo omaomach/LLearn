@@ -1,10 +1,19 @@
-import React from "react";
+import React, { useState } from "react";
 import rotatingGif from "../assets/rotating2.gif";
 import Search from "./Search";
 
 function Home({ events }) {
 
-  console.log(events)
+  const [search, setSearch] = useState("")
+
+  function searchEvent(newSearch) {
+    setSearch(newSearch)
+  }
+
+  const filteredEvents = events.filter((evt) => {
+    let result = evt.name.toLowerCase().includes(search)
+    return result
+  })
 
   return (
     <div className="main-div">
@@ -12,9 +21,9 @@ function Home({ events }) {
         <img src={rotatingGif} alt="world" />
       </div>
       <div className="content">
-        <Search />
+        <Search search={search} onSearchEvent={searchEvent}/>
         <div className="display-event-content">
-          {events.map((event) => (
+          {filteredEvents.map((event) => (
             // console.log(event.image)
             <div key={event.id} className="event-card">
             
