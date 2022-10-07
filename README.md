@@ -12,13 +12,12 @@ The home page displays a list of all the events that the user has created for ot
 <img src="./src/home.png">
 <img src="./src/suggest.png">
 
-
-
 ## Link to the Website
 
-[LLearn](https://gentle-praline-616eda.netlify.app)
+[Lets Learn](https://gentle-praline-616eda.netlify.app)
 
 ## Setup Requirements
+
 1. Visual Studio Code IDE
 2. Chrome Web Browser
 4. Git
@@ -29,6 +28,8 @@ The home page displays a list of all the events that the user has created for ot
 
 ## Development Server
 The database for the website was run and supported by JSON server. Run json-server --watch db.json on the terminal to get the server running on port http://localhost:3000
+The backend was then deployed to heroku for consistent service.
+[Backend URL](https://murmuring-hollows-81209.herokuapp.com/events)
 
 ## Languages Used
 * HTML 5
