@@ -16,6 +16,8 @@ The home page displays a list of all the events that the user has created for ot
 
 ## Link to the Website
 
+[LLearn](https://gentle-praline-616eda.netlify.app)
+
 ## Setup Requirements
 1. Visual Studio Code IDE
 2. Chrome Web Browser
@@ -23,6 +25,7 @@ The home page displays a list of all the events that the user has created for ot
 5. Github (https://github.com/omaomach/LLearn)
 6. JSON server (https://www.npmjs.com/package/json-server)
 7. NPM (https://docs.npmjs.com/downloading-and-installing-node-js-and-npm) and NPX
+8. Netlify for deploying the site.
 
 ## Development Server
 The database for the website was run and supported by JSON server. Run json-server --watch db.json on the terminal to get the server running on port http://localhost:3000
@@ -37,8 +40,8 @@ The database for the website was run and supported by JSON server. Run json-serv
 ## Design Tools
 I designed the site using pencil and paper. The designs are as below:
 
-<img src="./eventsandhome.jpg">
-<img src="./suggestdesign.jpg">
+<img src="./src/eventsandhome.jpg">
+<img src="./src/suggestdesign.jpg">
 
 
 ## Known Bugs
