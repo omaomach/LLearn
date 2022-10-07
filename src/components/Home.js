@@ -28,7 +28,7 @@ function Home({ events }) {
             <div key={event.id} className="event-card">
             
               <div className="home-event-image">
-                <img src={event.image} alt="event image" />
+                <img src={event.image} alt="eventimage" />
               </div>
               <div className="home-event-details">
                 <div className="event-name">
