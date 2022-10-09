@@ -1,10 +1,12 @@
 import React, { useState } from "react";
+import { useNavigate } from "react-router-dom";
 import rotatingGif from "../assets/rotating2.gif";
 import Search from "./Search";
 
 function Home({ events }) {
 
   const [search, setSearch] = useState("")
+  const navigate = useNavigate()
 
   function searchEvent(newSearch) {
     setSearch(newSearch)
@@ -40,7 +42,7 @@ function Home({ events }) {
                 <div className="event-date">
                   {event.date}
                 </div>
-                <button className="delete-button">Register for Event</button>
+                <button className="delete-button" onClick={() => navigate("/events")}>Register for Event</button>
               </div>
               {/* <div className="event-attendees">
 

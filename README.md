@@ -7,9 +7,12 @@
 Lets Learn(LLearn) is an online resgister that allows event organizers e.g lecturers or anyone else who wishes to take up the role to simply create or suggest an event. Sharing the link to the event will allow users to register for the event. This allows the event organizer to keep track of who will be attending the event/meetup.
 
 ## Screenshots
-The home page displays a list of all the events that the user has created for others to join or register for.
+The home page displays a list of all the events that the user has created for others to join or register for. It has a search for filtering 
 
 <img src="./src/home.png">
+
+The suggest page allows the user to suggest an event that will then be added to the homepage for viewing and selecting by the site users.
+
 <img src="./src/suggest.png">
 
 ## Link to the Website
