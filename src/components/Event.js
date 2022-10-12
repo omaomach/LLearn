@@ -1,7 +1,11 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
+import { useParams } from "react-router-dom";
 import Search from "./Search";
 
-function Events({ events }) {
+function Events() { 
+  const [eventDetails, setEventDetails] = useState({})
+  let { eventId } = useParams()
+  // console.log(eventId)
 
   const listStyle = {
     cursor: "pointer",
@@ -9,7 +13,19 @@ function Events({ events }) {
     fontSize: "20px"
   }
 
-  
+  useEffect(() => {
+    fetch(`https://murmuring-hollows-81209.herokuapp.com/events/${eventId}`)
+      .then((res) => res.json())
+      .then((data) => {
+        // console.log(data);
+        setEventDetails({
+          ...data
+        })
+        // console.log(data);
+      });
+  }, []);
+
+  // console.log(eventDetails)
 
   return (
     <div className="main-div2">
@@ -17,15 +33,17 @@ function Events({ events }) {
         <Search />
         <div className="event-list">
           <ul>
-            {events.map((event) => (
-              <li key={event.id} style={listStyle}>{event.name}</li>
-            ))}
+
+            {Object.keys(eventDetails).length > 0 ? eventDetails.users.map((user) => (
+              <li key={user.id} style={listStyle}>{user.firstName} {user.lastName}</li>
+              // console.log(event)
+            )) : console.log("Hello")}
           </ul>
         </div>
       </div>
       <div className="right-content">
         <div className="event-image">
-
+          <img src={eventDetails.image} alt="eventImage" />
         </div>
         <div className="event-details-1">
           <div className="event-name">

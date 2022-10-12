@@ -13,7 +13,7 @@ function NavBar() {
           <Navbar.Collapse id="responsive-navbar-nav">
             <Nav className="m-auto">
               <NavLink to="/">Home</NavLink>
-              <NavLink to="/events">Events</NavLink>
+              <NavLink to="/event">Event</NavLink>
               <NavLink to="/suggest">Suggest Event</NavLink>
             </Nav>
             <Nav>

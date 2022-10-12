@@ -117,56 +117,5 @@
             "": "10",
             "id": 7
         }
-    ],
-    "users": [
-        {
-            "id": "1",
-            "firstName": "Omao",
-            "lastName": "Machoka",
-            "image": "https://asset.vg247.com/sackboy_a_big_adventure_01.jpg/BROK/resize/1920x1920%3E/format/jpg/quality/80/sackboy_a_big_adventure_01.jpg",
-            "phoneNumber": 254728748441
-        },
-        {
-            "id": "2",
-            "firstName": "Joel",
-            "lastName": "Asiago",
-            "image": "https://asset.vg247.com/sackboy_a_big_adventure_01.jpg/BROK/resize/1920x1920%3E/format/jpg/quality/80/sackboy_a_big_adventure_01.jpg",
-            "phoneNumber": 254728748441
-        },
-        {
-            "id": "3",
-            "firstName": "Faith",
-            "lastName": "Mwabe",
-            "image": "https://asset.vg247.com/sackboy_a_big_adventure_01.jpg/BROK/resize/1920x1920%3E/format/jpg/quality/80/sackboy_a_big_adventure_01.jpg",
-            "phoneNumber": 254728748441
-        },
-        {
-            "id": "4",
-            "firstName": "Gloria",
-            "lastName": "Nyatichi",
-            "image": "https://asset.vg247.com/sackboy_a_big_adventure_01.jpg/BROK/resize/1920x1920%3E/format/jpg/quality/80/sackboy_a_big_adventure_01.jpg",
-            "phoneNumber": 254728748441
-        },
-        {
-            "id": "5",
-            "firstName": "Joshua",
-            "lastName": "Bongoye",
-            "image": "https://asset.vg247.com/sackboy_a_big_adventure_01.jpg/BROK/resize/1920x1920%3E/format/jpg/quality/80/sackboy_a_big_adventure_01.jpg",
-            "phoneNumber": 254728748441
-        },
-        {
-            "id": "6",
-            "firstName": "Alice",
-            "lastName": "Kemunto",
-            "image": "https://asset.vg247.com/sackboy_a_big_adventure_01.jpg/BROK/resize/1920x1920%3E/format/jpg/quality/80/sackboy_a_big_adventure_01.jpg",
-            "phoneNumber": 254728748441
-        },
-        {
-            "id": "1",
-            "firstName": "Haron",
-            "lastName": "Asiago",
-            "image": "https://asset.vg247.com/sackboy_a_big_adventure_01.jpg/BROK/resize/1920x1920%3E/format/jpg/quality/80/sackboy_a_big_adventure_01.jpg",
-            "phoneNumber": 254728748441
-        }
     ]
 }
